@@ -16,6 +16,6 @@ public class WithGoogle {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		System.out.println("The page title is: " + driver.getTitle());
-		driver.quit();
+		System.out.println("The Test Case passed.");
 	}
 }
